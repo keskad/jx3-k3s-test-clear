@@ -30,7 +30,7 @@ spec:
       enabled: false
       production: false
   repository: bucketrepo
-  secretStorage: vault
+  secretStorage: local
   vault:
     url: "127.0.0.1:8200"
   webhook: lighthouse
