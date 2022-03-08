@@ -7,8 +7,8 @@ spec:
   - owner: keskad
     provider: https://github.com
     providerKind: github
-    repositories:
-    - name: jx3-test-golang
+    repositories: 
+    - name: jx3-test-golang 
     scheduler: in-repo
   slack:
     channel: '#jenkins-x-pipelines'
