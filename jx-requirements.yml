@@ -25,7 +25,7 @@ spec:
     domain: k3s-aws.keskad.pl
     ignoreLoadBalancer: true
     kind: ingress
-    namespaceSubDomain: ""
+    namespaceSubDomain: -jx.
     tls:
       email: ""
       enabled: false

@@ -38,10 +38,10 @@ jxRequirements:
     repository: jx3-k3s-test-clear
   - key: staging
   ingress:
-    domain: change.me
+    domain: k3s-aws.keskad.pl
     ignoreLoadBalancer: true
     kind: ingress
-    namespaceSubDomain: .secret-infra.
+    namespaceSubDomain: -secret-infra.
     tls:
       email: ""
       enabled: false

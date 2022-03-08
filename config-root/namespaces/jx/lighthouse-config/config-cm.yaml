@@ -41,7 +41,7 @@ data:
         - needs-rebase
         repos:
         - keskad/jx3-k3s-test-clear
-      target_url: http://lighthouse.jx./merge/status
+      target_url: http://lighthouse-jx.k3s-aws.keskad.pl/merge/status
 kind: ConfigMap
 metadata:
   creationTimestamp: null
