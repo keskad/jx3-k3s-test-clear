@@ -22,10 +22,10 @@ spec:
     repository: jx3-k3s-test-clear
   - key: staging
   ingress:
-    domain: ""
+    domain: k3s-aws.keskad.pl
     ignoreLoadBalancer: true
     kind: ingress
-    namespaceSubDomain: .jx.
+    namespaceSubDomain: ""
     tls:
       email: ""
       enabled: false
